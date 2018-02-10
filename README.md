@@ -1,0 +1,2 @@
+# spaghedi
+Transparently obfuscate IDs
