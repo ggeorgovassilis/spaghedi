@@ -33,6 +33,7 @@
 
 	<modules>
 		<module>spaghedi-filter</module>
+		<module>spaghedi-demo</module>
 	</modules>
 
 </project>
