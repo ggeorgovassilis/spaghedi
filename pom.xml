@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>spaghedi</groupId>
+	<artifactId>spaghedi-parent</artifactId>
+	<version>0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>http://opensource.org/licenses/Apache-2.0</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	<developers>
+
+		<developer>
+			<id>ggeorgovassilis</id>
+			<name>George Georgovassilis</name>
+			<email>g.georgovassilis_gmail.com</email>
+			<url>https://blog.georgovassilis.com/</url>
+			<roles>
+				<role>Developer</role>
+			</roles>
+		</developer>
+	</developers>
+	<scm>
+		<connection>scm:git:git@github.com:ggeorgovassilis/spaghedi.git</connection>
+		<developerConnection>scm:git:git@github.com:ggeorgovassilis/spaghedi.git</developerConnection>
+		<url>https://github.com/ggeorgovassilis/spaghedi</url>
+	</scm>
+
+	<modules>
+		<module>spaghedi-filter</module>
+	</modules>
+
+</project>
